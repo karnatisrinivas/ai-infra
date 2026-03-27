@@ -17,7 +17,7 @@ module "stackgen_b23b0752-7f17-4a60-a950-4eb116751034" {
   instance_type         = "t3.micro"
   key_name              = "my-finops-key"
   root_volume_encrypted = true
-  root_volume_size      = 100
+  root_volume_size      = 20
   root_volume_type      = "gp2"
   security_group_ids    = [module.stackgen_f71181ab-ab8f-4d7d-8fbd-f05ad68437c9.security_group_id]
   subnet_id             = module.stackgen_bdf4a6c8-d9a6-4318-8d52-da94437bd404.id
